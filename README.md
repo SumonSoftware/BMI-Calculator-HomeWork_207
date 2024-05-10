@@ -19,9 +19,6 @@
 
 
 
-
-```
-
 ## License
 
 Distributed under the Apache License 2.0. See <a href="https://github.com/SumonSoftware/mone-tag/blob/main/LICENSE">LICENSE</a> for more information.
