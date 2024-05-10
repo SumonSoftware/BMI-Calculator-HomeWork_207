@@ -11,9 +11,111 @@
 </h3> -->
 </p>
 
+## Step 1: activity_main code <br>
+```
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
 
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="BMI  Calculator"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="#00838F"
+        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:paddingLeft="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="15dp"
+        >
 
+        <EditText
+            android:id="@+id/tvFeet"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Height ( feet )"
+            android:textColor="#00838F"
+            android:textColorHint="#00838F"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:background="@drawable/edtext_background_border"
+            />
+        <EditText
+            android:id="@+id/tvInches"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Height ( inches )"
+            android:textColor="#00838F"
+            android:textColorHint="#00838F"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:background="@drawable/edtext_background_border"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/tvWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Weight ( K.G.)"
+        android:textColor="#00838F"
+        android:textColorHint="#00838F"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:background="@drawable/edtext_background_border"
+        />
+
+    <Button
+        android:id="@+id/tvCalculation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00838F"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="BMI Calculation" />
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:layout_margin="10dp"
+        android:textColor="#00838F"/>
+
+
+</LinearLayout>
+
+```
 
 
 
