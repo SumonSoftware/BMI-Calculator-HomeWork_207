@@ -10,3 +10,25 @@
     <a href="https://www.youtube.com/watch?v=Sgkp46GS6rk">Watch Video</a> for Runtime Storage Permissions.  
 </h3> -->
 </p>
+
+
+
+
+
+
+
+
+
+
+```
+
+## License
+
+Distributed under the Apache License 2.0. See <a href="https://github.com/SumonSoftware/mone-tag/blob/main/LICENSE">LICENSE</a> for more information.
+
+
+## Authors
+
+**Sumon Islam** - *Android Software Developer* - <a href="https://github.com/SumonSoftware">Sumon Islam</a> - *Learn with Ease*
+
+<h1 align="center">Thank You ❤️</h1>
