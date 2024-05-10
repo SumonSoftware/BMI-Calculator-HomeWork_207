@@ -11,7 +11,7 @@
 </h3> -->
 </p>
 
-## Step 1: activity_main code <br>
+## Step 1: activity_main.xml code <br>
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -133,7 +133,7 @@
 
 `````
 
-## Step 3: MainActivity code <br>
+## Step 3: MainActivity.java code <br>
 
 ```
 package com.apkgallery.homework207;
